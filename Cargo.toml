@@ -16,7 +16,7 @@ path = "./failure_derive"
 
 [dependencies.backtrace]
 optional = true
-version = "0.3.3"
+path = "../backtrace-rs"
 
 [workspace]
 members = [".", "failure_derive"]
